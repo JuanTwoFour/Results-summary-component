@@ -12,6 +12,12 @@
 --light-royal-blue: #2e2be9;
 --violet-blue: #4e21c9;
 --persian-blue: #2421ca00;
+
+  /* neutral */
+  --white: #ffffff;
+  --pale-blue: #ebf1ff;
+  --light-lavender: #c8c7ff;
+  --dark-grey-blue: #303b5a;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: #3e52a3; }
