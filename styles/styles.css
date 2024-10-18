@@ -11,13 +11,40 @@
 --light-slate-blue: #7857ff;
 --light-royal-blue: #2e2be9;
 --violet-blue: #4e21c9;
---persian-blue: #2421ca00;
+--persian-blue: #2421ca;
 
   /* neutral */
   --white: #ffffff;
   --pale-blue: #ebf1ff;
   --light-lavender: #c8c7ff;
   --dark-grey-blue: #303b5a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Hanken Grotesk';
+  font-size: 1rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .main {
@@ -27,12 +54,69 @@
 
 .card {
   display: flex;
-  width: 15rem;
-  height: auto;
+  width: 18rem;
+  height: 25rem;
   flex-direction: column;
   align-items: center;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
-.left { background-color: var(--light-slate-blue);}
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: #3e52a3; }
+.left {
+  background-image: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+}
+
+.main-title {
+  font-size: 1.2rem;
+  color: var(--light-lavender);
+}
+
+.circle {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  background-image: linear-gradient(180deg, #4e21c96b, #2421ca3d);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.score {
+  color: var(--white);
+  font-size: 3rem;
+}
+
+.total {
+  color: var(--light-lavender);
+  font-weight: 600;
+  font-size: .875rem;
+}
+
+.rating {
+  color: var(--pale-blue);
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.result-summary {
+  color: var(--light-lavender);
+  font-size: .875rem;
+}
+
+.left div {
+  width: 12.5rem;
+  text-wrap: pretty;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: #3e52a3;}
