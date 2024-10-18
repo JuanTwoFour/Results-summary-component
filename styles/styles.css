@@ -1,4 +1,17 @@
+:root {
+  /* Primary colors */
 
+  --light-red: #ff5757;
+  --orangey-yellow: #ffb01f;
+  --green-teal: #00bd91;
+  --cobalt-blue: #1125d4;
 
+  /* gradient colors */
+
+--light-slate-blue: #7857ff;
+--light-royal-blue: #2e2be9;
+--violet-blue: #4e21c9;
+--persian-blue: #2421ca00;
+}
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: #3e52a3; }
