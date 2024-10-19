@@ -67,6 +67,11 @@ body {
   background-image: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
 }
 
+.right {
+  margin: 0 -1rem;
+  box-shadow: 15px 10px 20px -1px #c8c7ff54;
+}
+
 .main-title {
   font-size: 1.2rem;
   color: var(--light-lavender);
