@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="./styles/styles.css">
   <link rel="stylesheet" href="./styles/responsive-styles.css">
 
+  <link rel="stylesheet" href="./data.json">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
@@ -39,26 +41,39 @@
     <div class="card right">
       <h2 class="summary">Summary</h2>
 
-      <div class="reaction">
-        <p>Reaction</p>
-        <p>80 / 100</p>
-      </div>
+      <div class="data">
+        <div class="reaction">
+          <div class="icon">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction">
+            <p>Reaction</p>
+          </div>
+          <div class="results"><p><strong>80</strong> / 100</p></div>
+        </div>
 
-      <div class="memory">
-        <p>Memory</p>
-        <p>92 / 100</p>
-      </div>
+        <div class="memory">
+          <div class="icon">
+            <img src="./assets/images/icon-memory.svg" alt="memory">
+            <p>Memory</p>
+          </div>
+          <div class="results"><p><strong>92</strong> / 100</p></div>
+        </div>
 
-      <div class="verbal">
-        <p>Verbal</p>
-        <p>61 / 100</p>
-      </div>
+        <div class="verbal">
+          <div class="icon">
+            <img src="./assets/images/icon-verbal.svg" alt="verbal">
+            <p>Verbal</p>
+          </div>
+          <div class="results"><p><strong>61</strong> / 100</p></div>
+        </div>
 
-      <div class="visual">
-        <p>Visual</p>
-        <p>72 / 100</p>
+        <div class="visual">
+          <div class="icon">
+            <img src="./assets/images/icon-visual.svg" alt="visual">
+            <p>Visual</p>
+          </div>
+          <div class="results"><p><strong>72</strong> / 100</p></div>
+        </div>
       </div>
-
       <button class="btn">Continue</button>
     </div>
   </div>
