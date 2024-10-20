@@ -19,6 +19,10 @@
     padding: 0 2rem;
   }
 
+  .result-summary {
+    width: 18.5rem;
+  }
+
   .data {
     width: 100%;
   }
